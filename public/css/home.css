@@ -1,0 +1,116 @@
+/* Tamaños tipográficos */
+.home h2{
+    font-size: 24px;
+}
+
+.home p{
+    font-size: 12px;
+}
+.home a {
+    font-size: 12px;
+    font-weight: 700;
+}
+.home #descuento{
+font-size: 16px;
+color: var(--color-verde);
+}
+.home span{
+    font-size: 18px;
+}
+
+/* Header */
+.home header {
+    background-color: var(--color-amarillo);
+}
+.home img#logo {
+    width: 150px;
+    margin: 20px;
+}
+.home .search {
+    display: block;
+    color: var(--color-gris-claro);
+    margin-left: 20px;
+}
+.home #sinTarjeta {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+}
+/* Header nav */
+.home nav ul{
+    margin-bottom: 15px;
+}
+.home header li {
+    list-style: none;
+}
+.home .burger-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.home .burger-menu i{
+    color: #FFFFFF;
+    background-color: var(--color-celeste);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 13%;
+}
+.home footer .footer-item-box{
+    text-align: center;
+    margin: 40px;
+    color: var(--color-azul);
+}
+.home footer .footer-item-box i{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.home footer #copyright{
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-gris-oscuro); 
+}
+
+.home .container {
+    width: 90%;
+    margin: 5%;
+}
+.home #banner {
+    width: 100%;
+}
+.home .container h3{
+    margin-top: 20px;
+}
+.home .container .box-item{
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.home .item-description{
+    border-top: 1px solid #ebebeb;
+    margin: 0 15px 0 15px;
+    background-color: #FFFFFF;
+    width: 90%;
+}
+
+.home .delivery{
+    color: var(--color-verde);
+    border: 1px solid var(--color-verde);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width:361px){
+    .box-item #descripcion-articulo{
+        display: none;
+    }
+}
+@media (max-width:769px) and (min-width:320px) {ul{display: none;}}
+
+@media (min-width:769px){
+    .home header nav .burger-menu {display: none;}
+    .home main .container .box-item {box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+}
